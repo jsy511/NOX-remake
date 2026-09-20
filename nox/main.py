@@ -1,11 +1,10 @@
-from nox import __version__
 from nox.banner import BANNER
+from nox.cli import start_cli
 
 
 def main():
     print(BANNER)
-    print(f"NOX v{__version__}")
-    print("NOX is starting...")
+    start_cli()
 
 
 if __name__ == "__main__":
