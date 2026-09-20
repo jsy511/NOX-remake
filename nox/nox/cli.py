@@ -1,6 +1,7 @@
 from nox import __version__
 from nox.modules import MODULES
 
+from nox.modules import network
 
 def show_help():
     print("""
